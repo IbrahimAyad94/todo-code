@@ -2,7 +2,7 @@ import React, {useContext} from 'react'
 import AppContext from '../../../context/Context';
 
 import css from './Counter.module.css';
-const counter = () => {
+const Counter = () => {
     const appContext = useContext(AppContext);
     return (
           <div className={css.Counter}>
@@ -13,4 +13,4 @@ const counter = () => {
     )
 }
 
-export default counter
+export default Counter
