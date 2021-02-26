@@ -1,0 +1,21 @@
+.btn {
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 15px;
+    outline: none;
+    margin: 0 5px;
+}
+
+.btnDanger {
+    color: #FFF;
+    background-color: #E91E63;
+    border: 1px solid #E91E63
+}
+
+.btnSuccess {
+    color: #FFF;
+    background-color: #155724;
+    border: 1px solid #155724
+}
+
+

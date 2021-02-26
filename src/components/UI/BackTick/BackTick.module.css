@@ -1,0 +1,24 @@
+.close {
+    cursor: pointer;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 400;
+    background-color: #ddd;
+    opacity: .7;
+}
+
+.showBackTick {
+    display: block;
+}
+
+.hideBackTick {
+    display: none;
+}
+
+/* @media (min-width:600px)  {
+    .close, .SideBar {
+    }
+  } */

@@ -1,0 +1,14 @@
+.CardBody {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.icon {
+    margin: 0 10px;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+}

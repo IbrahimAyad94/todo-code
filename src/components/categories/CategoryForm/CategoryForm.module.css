@@ -1,0 +1,22 @@
+.input {
+    height: 30px;
+    width: 90%;
+    margin: 5px 30px;
+    border: 1px solid #E91E63;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+@media (min-width:600px)  {
+    .input{
+      width: 60%;
+  
+    }
+}
+
+@media (min-width:1025px)  {
+    .input{
+      width: 50%;
+  
+    }
+}

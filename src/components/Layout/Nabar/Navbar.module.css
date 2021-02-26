@@ -1,0 +1,32 @@
+
+nav {
+    width: 70%;
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    list-style-type: none;
+    padding: 4px 10px;
+}
+
+nav ul li:hover {
+    color: #E91E63;
+    transition: all ease-in-out .2s;
+	transform: scale(.9);
+    padding: 0 5px;
+}
+
+
+.active {
+    color: #E91E63;
+    border-bottom: 5px solid #E91E63;
+    padding: 0 5px;
+    transform: scale(1.1);
+}
+.navIcon {
+    display: inline-block;
+    margin-right: 5px;
+}

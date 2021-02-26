@@ -1,0 +1,60 @@
+input, select {
+    height: 30px;
+    width: 90%;
+    margin: 0 30px;
+    border: 1px solid #E91E63;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+textarea {
+    width: 90%;
+    height: 100px;
+    padding: 10px 15px;
+    margin: 20px;
+    resize: none;
+    border: 1px solid #E91E63;
+    border-radius: 3px;
+}
+
+label {
+    display: inline-block;
+} 
+
+.FormRow {
+    margin: 20px 0;
+}
+
+.Title {
+    width: 80%;
+    text-align: left;
+}
+
+@media (min-width:600px)  {
+    input, select { 
+        width: 50%;
+    }
+    
+    textarea {
+        width: 50%;
+    }
+    
+    .Title {
+        width: 30%;
+    }
+
+  }
+  
+  @media (min-width:1025px)  {
+    input, select { 
+        width: 60%;
+    }
+    
+    textarea {
+        width: 60%;
+    }
+    
+    .Title {
+        width: 30%;
+    }
+  }

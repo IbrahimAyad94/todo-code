@@ -1,0 +1,54 @@
+.Footer {
+    background-color: #350D36;
+    display: flex;
+    justify-content: space-around;
+    min-height: 60px;
+    align-items: center;
+}
+
+.Footer .FooterItem {
+    color: #FFF;
+}
+
+.Footer .FooterItem ul {
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+}
+
+.Footer .FooterItem ul li {
+    list-style-type: none;
+}
+
+.Footer .FooterItem ul li a{
+    color: #FFF;
+}
+
+
+/* social */
+.facebook {
+    background-color: #3B5998;
+    color: #FFF;
+}
+.facebook:hover{
+    background-color: #FFF;
+    color: #3B5998;
+}
+
+.twitter {
+    background-color: #1DA1F2;
+    color: #FFF;
+}
+.twitter:hover{
+    background-color: #FFF;
+    color: #1DA1F2;
+}
+
+.linkedin {
+    background-color: #0A66C2;
+    color: #FFF;
+}
+.linkedin:hover{
+    background-color: #FFF;
+    color: #0A66C2;
+}

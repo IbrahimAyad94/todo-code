@@ -1,0 +1,27 @@
+.EmptyCard {
+    text-align: center;
+    min-height: 80px;
+    padding-top: 30px;
+    font-weight: bold;
+}
+
+.card-header, .card-body, .card-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+
+.card-header {
+    background-color: #ccc;
+}
+
+.icon {
+    margin: 0 10px;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}

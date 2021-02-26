@@ -1,0 +1,62 @@
+
+.SideBar {
+    border: 3px solid #350D36;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 100%;
+    background-color: #350D36;
+    transition: all ease-in-out .5s;
+    z-index: 500;
+    color: #FFF;
+    padding: 10px;
+}
+
+.SideBarHeader {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.SideBarBody {
+    padding: 20px 0;
+
+}
+
+.Hide {
+    transform: translateX(-1000vh);
+}
+
+.Show {
+    transform: translateX(0vh);
+}
+
+
+/*Links Style*/
+.SideBar ul {
+      display: flex;
+      flex-direction: column;
+      padding-left: 20px;;
+  }
+
+  .SideBar ul li  {
+      margin: 10px 0;
+  }
+
+.SideBar ul li a {
+      color: #FFF;
+  }
+
+
+.active {
+    color: #E91E63;
+    border-bottom: 5px solid #E91E63;
+    padding: 0 5px;
+    transform: scale(1.1);
+}
+
+.navIcon {
+    display: inline-block;
+    margin-right: 5px;
+}
